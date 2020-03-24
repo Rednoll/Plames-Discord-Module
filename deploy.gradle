@@ -33,6 +33,7 @@ dependencies {
     }
 	
 	compile project(":Plames-API")
+	compile project(":Plames-Core")
 }
 
 test {
