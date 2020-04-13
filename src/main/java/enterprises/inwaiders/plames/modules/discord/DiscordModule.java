@@ -1,18 +1,18 @@
-package com.inwaiders.plames.modules.discord;
+package enterprises.inwaiders.plames.modules.discord;
 
 import java.util.List;
 
 import javax.security.auth.login.LoginException;
 
-import com.inwaiders.plames.api.application.ApplicationAgent;
-import com.inwaiders.plames.api.locale.PlamesLocale;
-import com.inwaiders.plames.domain.messenger.impl.MessengerImpl;
-import com.inwaiders.plames.domain.module.impl.ModuleBase;
-import com.inwaiders.plames.modules.discord.dao.bot.DiscordBotHlRepository;
-import com.inwaiders.plames.modules.discord.dao.profile.DiscordProfileHlRepository;
-import com.inwaiders.plames.modules.discord.domain.DiscordMessenger;
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
+import enterprises.inwaiders.plames.api.application.ApplicationAgent;
+import enterprises.inwaiders.plames.api.locale.PlamesLocale;
+import enterprises.inwaiders.plames.domain.messenger.impl.MessengerImpl;
+import enterprises.inwaiders.plames.domain.module.impl.ModuleBase;
+import enterprises.inwaiders.plames.modules.discord.dao.bot.DiscordBotHlRepository;
+import enterprises.inwaiders.plames.modules.discord.dao.profile.DiscordProfileHlRepository;
+import enterprises.inwaiders.plames.modules.discord.domain.DiscordMessenger;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 
 public class DiscordModule extends ModuleBase implements ApplicationAgent {
 

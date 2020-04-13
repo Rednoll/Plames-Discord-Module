@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.domain.profile;
+package enterprises.inwaiders.plames.modules.discord.domain.profile;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,13 +13,13 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import com.inwaiders.plames.api.messenger.message.Message;
-import com.inwaiders.plames.dao.EntityLink;
-import com.inwaiders.plames.domain.messenger.profile.impl.UserProfileBase;
-import com.inwaiders.plames.modules.discord.dao.profile.DiscordProfileHlRepository;
-import com.inwaiders.plames.modules.discord.dao.profile.DiscordProfileRepository;
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
-import com.inwaiders.plames.spring.SpringUtils;
+import enterprises.inwaiders.plames.api.messenger.message.Message;
+import enterprises.inwaiders.plames.dao.EntityLink;
+import enterprises.inwaiders.plames.domain.messenger.profile.impl.UserProfileBase;
+import enterprises.inwaiders.plames.modules.discord.dao.profile.DiscordProfileHlRepository;
+import enterprises.inwaiders.plames.modules.discord.dao.profile.DiscordProfileRepository;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.spring.SpringUtils;
 
 @Entity
 @Table(name = "discord_profiles")

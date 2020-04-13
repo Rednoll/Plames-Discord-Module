@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.domain.bot;
+package enterprises.inwaiders.plames.modules.discord.domain.bot;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -22,16 +22,15 @@ import javax.security.auth.login.LoginException;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import com.inwaiders.plames.api.locale.PlamesLocale;
-import com.inwaiders.plames.api.messenger.message.Message;
-import com.inwaiders.plames.dao.EntityLink;
-import com.inwaiders.plames.modules.discord.dao.bot.DiscordBotHlRepository;
-import com.inwaiders.plames.modules.discord.dao.bot.DiscordBotRepository;
-import com.inwaiders.plames.modules.discord.domain.bot.listeners.DiscordMessageListener;
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
-import com.inwaiders.plames.spring.ApplicationContextProvider;
-import com.inwaiders.plames.spring.SpringUtils;
-
+import enterprises.inwaiders.plames.api.locale.PlamesLocale;
+import enterprises.inwaiders.plames.api.messenger.message.Message;
+import enterprises.inwaiders.plames.dao.EntityLink;
+import enterprises.inwaiders.plames.modules.discord.dao.bot.DiscordBotHlRepository;
+import enterprises.inwaiders.plames.modules.discord.dao.bot.DiscordBotRepository;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.listeners.DiscordMessageListener;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
+import enterprises.inwaiders.plames.spring.ApplicationContextProvider;
+import enterprises.inwaiders.plames.spring.SpringUtils;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 

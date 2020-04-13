@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.dao.bot;
+package enterprises.inwaiders.plames.modules.discord.dao.bot;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.QueryHints;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
 
 @Repository
 public interface DiscordBotRepository extends JpaRepository<DiscordBot, Long>{

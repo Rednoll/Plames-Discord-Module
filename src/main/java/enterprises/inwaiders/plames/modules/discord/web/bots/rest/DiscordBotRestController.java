@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.web.bots.rest;
+package enterprises.inwaiders.plames.modules.discord.web.bots.rest;
 
 import javax.security.auth.login.LoginException;
 
@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
 
 @RestController
 @RequestMapping("api/ds/rest")

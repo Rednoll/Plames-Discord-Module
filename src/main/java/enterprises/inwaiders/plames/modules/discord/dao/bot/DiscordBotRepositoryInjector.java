@@ -1,11 +1,11 @@
-package com.inwaiders.plames.modules.discord.dao.bot;
+package enterprises.inwaiders.plames.modules.discord.dao.bot;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
 
 @Service
 public class DiscordBotRepositoryInjector {

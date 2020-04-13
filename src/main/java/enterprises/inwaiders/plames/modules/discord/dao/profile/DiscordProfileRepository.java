@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.dao.profile;
+package enterprises.inwaiders.plames.modules.discord.dao.profile;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.data.jpa.repository.QueryHints;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 
 @Repository
 public interface DiscordProfileRepository extends JpaRepository<DiscordProfile, Long>{

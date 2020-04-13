@@ -1,9 +1,9 @@
-package com.inwaiders.plames.modules.discord.dao.profile;
+package enterprises.inwaiders.plames.modules.discord.dao.profile;
 
 import java.util.List;
 
-import com.inwaiders.plames.dao.HighLevelRepository;
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
+import enterprises.inwaiders.plames.dao.HighLevelRepository;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 
 public abstract class DiscordProfileHlRepository<T extends DiscordProfile> implements HighLevelRepository<T> {
 

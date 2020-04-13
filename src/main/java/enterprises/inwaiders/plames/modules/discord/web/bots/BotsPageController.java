@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.web.bots;
+package enterprises.inwaiders.plames.modules.discord.web.bots;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
 
 @Controller
 public class BotsPageController {

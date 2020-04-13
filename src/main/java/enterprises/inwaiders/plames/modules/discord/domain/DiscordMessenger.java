@@ -1,14 +1,14 @@
-package com.inwaiders.plames.modules.discord.domain;
+package enterprises.inwaiders.plames.modules.discord.domain;
 
 import java.util.List;
 
 import javax.persistence.Entity;
 import javax.security.auth.login.LoginException;
 
-import com.inwaiders.plames.api.locale.PlamesLocale;
-import com.inwaiders.plames.domain.messenger.impl.MessengerImpl;
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
+import enterprises.inwaiders.plames.api.locale.PlamesLocale;
+import enterprises.inwaiders.plames.domain.messenger.impl.MessengerImpl;
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 
 @Entity
 public class DiscordMessenger extends MessengerImpl<DiscordProfile>{

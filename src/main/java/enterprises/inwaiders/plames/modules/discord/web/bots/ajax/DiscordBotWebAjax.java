@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.web.bots.ajax;
+package enterprises.inwaiders.plames.modules.discord.web.bots.ajax;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
 
 @RestController
 @RequestMapping("web/controller/ajax/ds/bot")

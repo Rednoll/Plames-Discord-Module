@@ -1,11 +1,11 @@
-package com.inwaiders.plames.modules.discord.dao.profile;
+package enterprises.inwaiders.plames.modules.discord.dao.profile;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 
 @Service
 public class DiscordProfileRepositoryInjector {

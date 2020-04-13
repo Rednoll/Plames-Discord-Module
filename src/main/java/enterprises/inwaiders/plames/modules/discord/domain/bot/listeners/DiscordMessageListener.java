@@ -1,4 +1,4 @@
-package com.inwaiders.plames.modules.discord.domain.bot.listeners;
+package enterprises.inwaiders.plames.modules.discord.domain.bot.listeners;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -6,9 +6,9 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
-import com.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 
+import enterprises.inwaiders.plames.modules.discord.domain.bot.DiscordBot;
+import enterprises.inwaiders.plames.modules.discord.domain.profile.DiscordProfile;
 import net.dv8tion.jda.api.events.message.priv.PrivateMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
